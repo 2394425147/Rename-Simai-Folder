@@ -5,6 +5,10 @@ var workingDirectory   = Environment.CurrentDirectory;
 var levelDirectoryMode = false;
 var forceOverwriteMode = false;
 
+
+
+// main program
+
 foreach (var arg in args)
 {
 	switch (arg)
@@ -75,6 +79,10 @@ foreach (var directory in workingDirectoryInfo.GetDirectories())
 	RenameDirectory(directory);
 }
 
+
+
+// methods
+
 void RenameDirectory(DirectoryInfo directory)
 {
 	// check if .\maidata.txt exists in the current folder (case insensitive)
@@ -87,11 +95,15 @@ void RenameDirectory(DirectoryInfo directory)
 	}
 
 	var simaiFile = new SimaiFile(maidataFiles.First().FullName);
-	var title     = simaiFile.GetValue("title");
+	var title     = ReplaceInvalidChars(simaiFile.GetValue("title"));
 
 	// rename the directory (replace the directoryName to title, since title isn't the full name)
 	var newDirectoryPath = Path.Combine(directory.Parent?.FullName ?? string.Empty, title);
-
+	
+	// skip if the directory has already been renamed
+	if (CompareDirectoryPaths(workingDirectoryInfo.FullName, newDirectoryPath) == 0)
+		return;
+	
 	if (Directory.Exists(newDirectoryPath))
 	{
 		if (!forceOverwriteMode)
@@ -117,4 +129,19 @@ void RenameDirectory(DirectoryInfo directory)
 
 	// rename the current directory to the new directory
 	Directory.Move(directory.FullName, newDirectoryPath);
+}
+
+// https://stackoverflow.com/questions/146134/how-to-remove-illegal-characters-from-path-and-filenames
+string ReplaceInvalidChars(string filename)
+{
+	return string.Join("_", filename.Split(Path.GetInvalidFileNameChars()));
+}
+
+// https://stackoverflow.com/questions/2281531/how-can-i-compare-directory-paths-in-c
+int CompareDirectoryPaths(string path1, string path2)
+{
+	return string.Compare(
+	                      Path.GetFullPath(path1).TrimEnd('\\'),
+	                      Path.GetFullPath(path2).TrimEnd('\\'),
+	                      StringComparison.InvariantCultureIgnoreCase);
 }
