@@ -101,7 +101,7 @@ void RenameDirectory(DirectoryInfo directory)
 	var newDirectoryPath = Path.Combine(directory.Parent?.FullName ?? string.Empty, title);
 	
 	// skip if the directory has already been renamed
-	if (CompareDirectoryPaths(workingDirectoryInfo.FullName, newDirectoryPath) == 0)
+	if (CompareDirectoryPaths(directory.FullName, newDirectoryPath) == 0)
 		return;
 	
 	if (Directory.Exists(newDirectoryPath))
