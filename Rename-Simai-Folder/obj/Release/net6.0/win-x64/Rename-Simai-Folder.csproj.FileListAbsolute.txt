@@ -1,0 +1,17 @@
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\bin\Release\net6.0\win-x64\Rename-Simai-Folder.exe
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\bin\Release\net6.0\win-x64\SimaiSharp.dll
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\bin\Release\net6.0\win-x64\Rename-Simai-Folder.deps.json
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\bin\Release\net6.0\win-x64\Rename-Simai-Folder.runtimeconfig.json
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\bin\Release\net6.0\win-x64\Rename-Simai-Folder.dll
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\bin\Release\net6.0\win-x64\Rename-Simai-Folder.pdb
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\Rename-Simai-Folder.csproj.AssemblyReference.cache
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\Rename-Simai-Folder.GeneratedMSBuildEditorConfig.editorconfig
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\Rename-Simai-Folder.AssemblyInfoInputs.cache
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\Rename-Simai-Folder.AssemblyInfo.cs
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\Rename-Simai-Folder.csproj.CoreCompileInputs.cache
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\Rename-Simai-Folder.csproj.CopyComplete
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\Rename-Simai-Folder.dll
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\refint\Rename-Simai-Folder.dll
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\Rename-Simai-Folder.pdb
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\Rename-Simai-Folder.genruntimeconfig.cache
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\obj\Release\net6.0\win-x64\ref\Rename-Simai-Folder.dll

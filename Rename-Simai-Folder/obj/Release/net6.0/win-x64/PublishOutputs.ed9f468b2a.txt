@@ -1,0 +1,2 @@
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\bin\Release\net6.0\win-x64\publish\Rename-Simai-Folder.pdb
+D:\360MoveData\Users\rdcny\source\repos\Rename-Simai-Folder\Rename-Simai-Folder\bin\Release\net6.0\win-x64\publish\Rename-Simai-Folder.exe
